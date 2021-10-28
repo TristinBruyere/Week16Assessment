@@ -1,0 +1,6 @@
+<div  style="display: inline-block; background-color:sandybrown; padding: 8px; margin-left: 2.5em;" *ngIf="book">
+<div>Name: {{ book.title }}</div>
+<div>Author: {{ book.author }}</div>
+<div>Publication Year: {{ book.publicationYear }}</div>
+</div>
+<button (click)="deleteItem()" style="vertical-align: 1.3em; margin-left: 1em;">Delete</button>
